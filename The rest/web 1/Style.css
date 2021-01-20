@@ -1,0 +1,69 @@
+body {
+	background: #bdc3c7;
+}
+
+h1 {
+	color: #9b59b6;
+}
+
+h2 {
+	color: orange;
+}
+
+li {
+	color: #1d5cde;
+}
+
+p {
+	background : yellow;
+}
+
+
+input {
+	border: 3px solid red;
+}
+
+.hello {
+	background : white;
+}
+
+#special {
+	border: 2px solid blue;
+}
+
+div p {
+	font-size: 25px;
+}
+
+input[type=text] {
+	background: grey; 
+	
+}
+
+label [type=checkbox] {
+	text-transform: capitalize;
+}
+
+div:nth-child(5) p {
+	background :pink;
+
+} 
+
+div:nth-child(5) p:last-child {
+	border: 5px solid white;
+}
+
+div:nth-child(5) em {
+	color :white;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
