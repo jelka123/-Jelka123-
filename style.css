@@ -288,10 +288,10 @@ header::after {
 
 .contactwrap {
    top: 0;
-   background: rgba(220, 203, 5, 0.14);
    color: #292929;
    padding: 20px;   
    height:100%;
+   bottom: 40%;
 }
 
 .contactwrap h1 {
@@ -334,6 +334,7 @@ header::after {
 }
 .contactform {
    margin-top: 80px;
+   margin-bottom: 100%;
 }
 
 #contactwrap h1 {
@@ -345,7 +346,6 @@ header::after {
 }
 
 .navbar {
-
   overflow: hidden;
   justify-content: center;
   background-color: #363f47;
@@ -382,12 +382,13 @@ header::after {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  margin-left: 125px;
   align-content: center;
 }
 
 .column {
-  flex: 25%;
-  max-width: 25%;
+  flex: 33.33%;
+  max-width: 33.33%;
   padding: 0 4px;
 }
 
@@ -416,6 +417,7 @@ header::after {
   padding:40px 0;
   background-color:#363f47;
   color:#eee295;
+  margin-top: 16%;
 }
 
 .footer-basic ul {
